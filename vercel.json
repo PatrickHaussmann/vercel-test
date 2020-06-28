@@ -1,13 +1,30 @@
 {
-  "redirects": [
-    { "source": "/me", "destination": "/profile.html" },
-    { "source": "/user", "destination": "/api/user", "permanent": false },
-    { "source": "/view-source", "destination": "https://github.com/vercel/vercel" }
-  ],
-  "rewrites": [
-    { "source": "/about", "destination": "/about-our-company.html" },
-    { "source": "/resize/:width/:height", "destination": "/api/sharp" },
-    { "source": "/user/:id", "destination": "/api/user" },
-    { "source": "/proxy/(.*)", "destination": "https://example.com/$1" }
-  ]
-}
+    "redirects": [
+      { "permanent": false, "source": "/chemische-evolution", "destination": "https://prezi.com/view/uoUMIGfCGD4FCxT43kGX/" },
+      { "permanent": false, "source": "/d", "destination": "https://my.pcloud.com/publink/show?code=kZB4yO7ZkasKSeecpxJuFT2yhix61fBId2gy" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" },
+      { "permanent": false, "source": "/", "destination": "" }
+    ]
+  }
