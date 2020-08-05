@@ -1,4 +1,9 @@
-{
+{   
+    "routes": [
+      { "src": "/product/(?<id>[^/]+)", "dest": "/product?id=$id" }
+      { "src": "/url/(<url>[^/]+)", "dest": "/debug?url=url" }
+    ],
+
     "redirects": [
       { "permanent": false, "source": "/chemische-evolution", "destination": "https://prezi.com/view/uoUMIGfCGD4FCxT43kGX/" },
       { "permanent": false, "source": "/d", "destination": "https://my.pcloud.com/publink/show?code=kZB4yO7ZkasKSeecpxJuFT2yhix61fBId2gy" },
