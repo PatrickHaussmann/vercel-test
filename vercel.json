@@ -1,7 +1,7 @@
 {   
     "routes": [
       { "src": "/product/(?<id>[^/]+)", "dest": "/product?id=$id" },
-      { "src": "/url1/*", "dest": "/api/debug" },
+      { "src": "/url1/.*", "dest": "/api/debug" },
       { "src": "/url/(<url>[^/]+)", "dest": "/api/debug?url=$url" }
     ]
   }
